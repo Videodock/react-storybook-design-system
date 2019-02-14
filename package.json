@@ -1,0 +1,36 @@
+{
+  "name": "design-system-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@storybook/addon-info": "^4.1.11",
+    "@storybook/react": "^4.1.11",
+    "@types/jest": "^24.0.3",
+    "babel-jest": "^24.1.0",
+    "prop-types": "^15.7.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-options": "^4.1.11",
+    "@storybook/addon-storyshots": "^4.1.11",
+    "@types/enzyme": "^3.1.18",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^24.1.0",
+    "jest-css-modules": "^1.1.0",
+    "react-test-renderer": "^16.8.1",
+    "require-context.macro": "^1.0.4"
+  }
+}

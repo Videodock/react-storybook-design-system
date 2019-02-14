@@ -1,0 +1,27 @@
+#story-root {
+  padding: 32px;
+  text-align: center;
+  border: 1px solid #eaeaea;
+}
+
+pre {
+  border-radius: 8px;
+  overflow-x: auto !important;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px;
+  font-weight: bold;
+  text-align: center;
+}
+
+table td {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px;
+}

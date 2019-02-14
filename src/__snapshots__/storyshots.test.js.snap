@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Avatar circle 1`] = `
+<Avatar
+  circle={true}
+  rounded={false}
+  src=""
+>
+  <img
+    alt="Avatar"
+    src=""
+    style={
+      Object {
+        "borderRadius": "50%",
+        "height": 50,
+        "width": 50,
+      }
+    }
+  />
+</Avatar>
+`;
+
+exports[`Storyshots Avatar rounded 1`] = `
+<Avatar
+  circle={false}
+  rounded={true}
+  src=""
+>
+  <img
+    alt="Avatar"
+    src=""
+    style={
+      Object {
+        "borderRadius": "4px",
+        "height": 50,
+        "width": 50,
+      }
+    }
+  />
+</Avatar>
+`;
+
+exports[`Storyshots Avatar squared 1`] = `
+<Avatar
+  circle={false}
+  rounded={false}
+  src=""
+>
+  <img
+    alt="Avatar"
+    src=""
+    style={
+      Object {
+        "height": 50,
+        "width": 50,
+      }
+    }
+  />
+</Avatar>
+`;
