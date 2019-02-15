@@ -8,14 +8,8 @@ exports[`Storyshots Avatar circle 1`] = `
 >
   <img
     alt="Avatar"
+    className="root-0-0-1 circle-0-0-3"
     src=""
-    style={
-      Object {
-        "borderRadius": "50%",
-        "height": 50,
-        "width": 50,
-      }
-    }
   />
 </Avatar>
 `;
@@ -28,14 +22,8 @@ exports[`Storyshots Avatar rounded 1`] = `
 >
   <img
     alt="Avatar"
+    className="root-0-0-1 rounded-0-0-2"
     src=""
-    style={
-      Object {
-        "borderRadius": "4px",
-        "height": 50,
-        "width": 50,
-      }
-    }
   />
 </Avatar>
 `;
@@ -48,13 +36,356 @@ exports[`Storyshots Avatar squared 1`] = `
 >
   <img
     alt="Avatar"
+    className="root-0-0-1"
     src=""
-    style={
-      Object {
-        "height": 50,
-        "width": 50,
-      }
-    }
   />
 </Avatar>
+`;
+
+exports[`Storyshots Button default 1`] = `
+<div
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
+>
+  <div>
+    <div>
+      <Typography
+        type="h3"
+      >
+        <h3
+          className="root-0-0-4"
+        >
+          Flat
+        </h3>
+      </Typography>
+      <Button
+        color="default"
+        size="normal"
+        type="flat"
+      >
+        <a
+          className="root-0-0-6 normal-0-0-13 defaultFlat-0-0-7"
+        >
+          <Typography
+            type="button"
+          >
+            <span
+              className="root-0-0-4 button-0-0-5"
+            >
+              default
+            </span>
+          </Typography>
+        </a>
+      </Button>
+       
+      <Button
+        color="primary"
+        size="normal"
+        type="flat"
+      >
+        <a
+          className="root-0-0-6 normal-0-0-13 primaryFlat-0-0-8"
+        >
+          <Typography
+            type="button"
+          >
+            <span
+              className="root-0-0-4 button-0-0-5"
+            >
+              primary
+            </span>
+          </Typography>
+        </a>
+      </Button>
+       
+      <Button
+        color="secondary"
+        size="normal"
+        type="flat"
+      >
+        <a
+          className="root-0-0-6 normal-0-0-13 secondaryFlat-0-0-9"
+        >
+          <Typography
+            type="button"
+          >
+            <span
+              className="root-0-0-4 button-0-0-5"
+            >
+              secondary
+            </span>
+          </Typography>
+        </a>
+      </Button>
+    </div>
+    <div>
+      <Typography
+        type="h3"
+      >
+        <h3
+          className="root-0-0-4"
+        >
+          Outlined
+        </h3>
+      </Typography>
+      <Button
+        color="default"
+        size="normal"
+        type="outlined"
+      >
+        <a
+          className="root-0-0-6 normal-0-0-13 defaultOutlined-0-0-10"
+        >
+          <Typography
+            type="button"
+          >
+            <span
+              className="root-0-0-4 button-0-0-5"
+            >
+              default
+            </span>
+          </Typography>
+        </a>
+      </Button>
+       
+      <Button
+        color="primary"
+        size="normal"
+        type="outlined"
+      >
+        <a
+          className="root-0-0-6 normal-0-0-13 primaryOutlined-0-0-11"
+        >
+          <Typography
+            type="button"
+          >
+            <span
+              className="root-0-0-4 button-0-0-5"
+            >
+              primary
+            </span>
+          </Typography>
+        </a>
+      </Button>
+       
+      <Button
+        color="secondary"
+        size="normal"
+        type="outlined"
+      >
+        <a
+          className="root-0-0-6 normal-0-0-13 secondaryOutlined-0-0-12"
+        >
+          <Typography
+            type="button"
+          >
+            <span
+              className="root-0-0-4 button-0-0-5"
+            >
+              secondary
+            </span>
+          </Typography>
+        </a>
+      </Button>
+    </div>
+    <div>
+      <Typography
+        type="h3"
+      >
+        <h3
+          className="root-0-0-4"
+        >
+          Small
+        </h3>
+      </Typography>
+      <Button
+        color="default"
+        size="small"
+        type="flat"
+      >
+        <a
+          className="root-0-0-6 small-0-0-14 defaultFlat-0-0-7"
+        >
+          <Typography
+            type="button"
+          >
+            <span
+              className="root-0-0-4 button-0-0-5"
+            >
+              default
+            </span>
+          </Typography>
+        </a>
+      </Button>
+       
+      <Button
+        color="primary"
+        size="small"
+        type="flat"
+      >
+        <a
+          className="root-0-0-6 small-0-0-14 primaryFlat-0-0-8"
+        >
+          <Typography
+            type="button"
+          >
+            <span
+              className="root-0-0-4 button-0-0-5"
+            >
+              primary
+            </span>
+          </Typography>
+        </a>
+      </Button>
+       
+      <Button
+        color="secondary"
+        size="small"
+        type="flat"
+      >
+        <a
+          className="root-0-0-6 small-0-0-14 secondaryFlat-0-0-9"
+        >
+          <Typography
+            type="button"
+          >
+            <span
+              className="root-0-0-4 button-0-0-5"
+            >
+              secondary
+            </span>
+          </Typography>
+        </a>
+      </Button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Header default 1`] = `
+<Header>
+  <header
+    className="root-0-0-15"
+  >
+    <Typography
+      type="h2"
+    >
+      <h2
+        className="root-0-0-4"
+      >
+        This is the default header
+      </h2>
+    </Typography>
+  </header>
+</Header>
+`;
+
+exports[`Storyshots Header with buttons 1`] = `
+<Header>
+  <header
+    className="root-0-0-15"
+  >
+    <Typography
+      type="h2"
+    >
+      <h2
+        className="root-0-0-4"
+      >
+        List
+      </h2>
+    </Typography>
+    <nav>
+      <Button
+        color="primary"
+        size="small"
+        type="outlined"
+      >
+        <a
+          className="root-0-0-6 small-0-0-14 primaryOutlined-0-0-11"
+        >
+          <Typography
+            type="button"
+          >
+            <span
+              className="root-0-0-4 button-0-0-5"
+            >
+              [ ] Clear list
+            </span>
+          </Typography>
+        </a>
+      </Button>
+    </nav>
+  </header>
+</Header>
+`;
+
+exports[`Storyshots Typography default 1`] = `
+<div>
+  <Typography
+    type="h1"
+  >
+    <h1
+      className="root-0-0-4"
+    >
+      Heading 1.
+    </h1>
+  </Typography>
+  <Typography
+    type="h2"
+  >
+    <h2
+      className="root-0-0-4"
+    >
+      Heading 2.
+    </h2>
+  </Typography>
+  <Typography
+    type="h3"
+  >
+    <h3
+      className="root-0-0-4"
+    >
+      Heading 3.
+    </h3>
+  </Typography>
+  <Typography
+    type="h4"
+  >
+    <h4
+      className="root-0-0-4"
+    >
+      Heading 4.
+    </h4>
+  </Typography>
+  <Typography
+    type="h5"
+  >
+    <h5
+      className="root-0-0-4"
+    >
+      Heading 5.
+    </h5>
+  </Typography>
+  <Typography
+    type="h6"
+  >
+    <h6
+      className="root-0-0-4"
+    >
+      Heading 6.
+    </h6>
+  </Typography>
+  <Typography
+    type="body"
+  >
+    <p
+      className="root-0-0-4"
+    >
+      Body.
+    </p>
+  </Typography>
+</div>
 `;

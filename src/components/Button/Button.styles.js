@@ -52,6 +52,7 @@ export default createStyleSheet(({ buttons, borderRadius }) => ({
     padding: '4px 10px',
     height: 32,
     borderRadius: 16,
+    fontSize: 14,
   },
 }));
 

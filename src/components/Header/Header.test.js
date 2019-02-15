@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Avatar from './Avatar';
+import Header from './Header';
 
-describe('Avatar', () => {
+describe('Header', () => {
   it('should be defined', () => {
-    expect(Avatar).toBeDefined();
+    expect(Header).toBeDefined();
   });
 
-  it('should render an img element', () => {
-    expect(shallow(<Avatar src="test.png" />).get(0).type).toEqual('img');
+  it('should render a header element', () => {
+    expect(shallow(<Header />).get(0).type).toEqual('header');
   });
 });
 
