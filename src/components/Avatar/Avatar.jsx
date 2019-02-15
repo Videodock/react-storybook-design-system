@@ -1,18 +1,16 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './Avatar.styles';
+import * as PropTypes from 'prop-types';
+import classNames from 'classnames';
+import classes from './Avatar.styles';
 
 const Avatar = ({ src, rounded, circle }) => {
-  let style = styles.root;
-
-  if (rounded) {
-    style = { ...style, ...styles.rounded };
-  } else if (circle) {
-    style = { ...style, ...styles.circle };
-  }
+  const className = classNames(classes.root, {
+    [classes.rounded]: !!rounded,
+    [classes.circle] : !!circle,
+  });
 
   return (
-    <img src={src} alt="Avatar" style={style} />
+    <img src={src} alt="Avatar" className={className} />
   )
 };
 

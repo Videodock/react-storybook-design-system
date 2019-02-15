@@ -1,10 +1,7 @@
-import { configure, addDecorator, setAddon } from '@storybook/react';
+import { configure, addDecorator } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import { withOptions } from '@storybook/addon-options';
-import allStories  from './allStories'
 import './style.css';
-
-setAddon(allStories.addStoriesGroup);
 
 addDecorator(withInfo({
   inline: true,

@@ -1,14 +1,15 @@
-import { borderRadius } from '../../tokens';
+import { createStyleSheet } from '../../jss';
 
-export default {
+export default createStyleSheet(({ borderRadius }) => ({
   root: {
     width: 50,
     height: 50,
   },
   rounded: {
-    borderRadius: borderRadius['border-radius-small'],
+    borderRadius: borderRadius.borderRadiusSmall,
   },
   circle: {
-    borderRadius: borderRadius['border-radius-circle'],
+    borderRadius: borderRadius.borderRadiusCircle,
   },
-}
+}));
+

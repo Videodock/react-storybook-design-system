@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: #fbfbfb;
+  -webkit-font-smoothing: antialiased;
+}
+
 #story-root {
-  padding: 32px;
+  padding: 32px 0;
   text-align: center;
   border: 1px solid #eaeaea;
 }
@@ -24,4 +36,10 @@ table th {
 table td {
   border: 1px solid #dfe2e5;
   padding: 6px 13px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
